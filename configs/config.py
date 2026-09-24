@@ -5,4 +5,4 @@ class Settings(BaseSettings):
     supabase_service_role_key: str
 
     model_config=SettingsConfigDict(env_file=".env") # selected .env file from root
-settings = Settings()
+db_env = Settings()
